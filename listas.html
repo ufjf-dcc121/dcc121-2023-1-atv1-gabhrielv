@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogos jogados</title>
     <link rel="stylesheet" href="estilopb.css" />
+    <style>
+        .serie{
+            color:green;
+        }
+        .filme {
+            color: blue;;
+        }
+        .jogo {
+            color: orangered;
+        }
+        p > .jogo {
+            border-bottom: dashed;
+        } 
+    </style>
 </head>
 <body>
     <header>
@@ -24,25 +38,25 @@
 
     <ol>
     
-    <li>cs 2</li>
-    <li>beta do valorant</li>
-    <li>minezada de cria</li>
+    <li class="jogo">cs 2</li>
+    <li class="jogo">beta do valorant</li>
+    <li class="jogo">minezada de cria</li>
     </ol>
-
+    <p>E o <span class="jogo"> cs 2</span> foi meu prefererido.</p>
     <p>Filmes e Séries que assisti:</p>
     <ul>
         <li>
             <div>Filmes</div>
             <ul style="color: green;">
-              <li>Interestelar</li>
-              <li>Creed 3</li>
+              <li class="filme">Interestelar</li>
+              <li class="filme">Creed 3</li>
             </ul>
         </li>
         <li>
             <div>Series</div>
             <ul style="color: blue;">
-                <li>The Last of Us</li>
-                <li>Outerbanks</li>
+                <li class="serie">The Last of Us</li>
+                <li class="serie">Outerbanks</li>
             </ul>
         </li> 
     </ul>
